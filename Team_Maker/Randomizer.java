@@ -84,31 +84,8 @@ public class Randomizer {
 		
 		ArrayList<Player> allPlayers = new ArrayList<Player>();
 		//Possibly fix OR, Offset by 1
-		allPlayers.add(new Player("David",23,14,1,5));
-		//allPlayers.add(new Player("Ethan",25, 22,3,4));
-		allPlayers.add(new Player("Dmitri",28, 24, 23,17,3,4,2,1));
-		allPlayers.add(new Player("The Gay",27, 24,2,1));
-		allPlayers.add(new Player("James",17, 9,5,2));
-		allPlayers.add(new Player("Jacob",24, 21,21,20,17,3,1,4,5,2));
-		allPlayers.add(new Player("Ali",12, 10,4,1));
-		allPlayers.add(new Player("Mina",19, 5));
-		allPlayers.add(new Player("Connuer",22,2));
-		allPlayers.add(new Player("Ken",21, 19,4,3));
-		allPlayers.add(new Player("Joseph",12,6,6,1,3,5));
-		allPlayers.add(new Player("Zeyzal",4,1,5,4));
-		allPlayers.add(new Player("Jun",9, 9 ,2,5));
-		allPlayers.add(new Player("Dom",20,17,3,2));
-		allPlayers.add(new Player("Whylag",26, 25,24,24,5,4,3,1));
-		allPlayers.add(new Player("Eliot",6, 6, 1,5,4,2));
-		allPlayers.add(new Player("Chris",11,2));
-		allPlayers.add(new Player("Good Ethan",19,13,4,5));
-		//allPlayers.add(new Player("Miguel",23,15,4,1));
-		//allPlayers.add(new Player("Edward",15,13,13,4,5,1));
-		allPlayers.add(new Player("Jonah",16,13,9,1,3,4));
-		//allPlayers.add(new Player("Gazi",17,4));
-		allPlayers.add(new Player("Miles",13,9,8,1,5,4));
-		allPlayers.add(new Player("Kevin",20,17,15,2,1,4));
-	//	allPlayers.add(new Player("Good Ethan",19,13,4,5));
+		//allPlayers.add(new Player("Name",Score1,Score2,Role1,Role2));
+
 		//System.out.println(allPlayers);
 		Randomizer rand = new Randomizer(allPlayers);
 	}
