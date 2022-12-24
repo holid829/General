@@ -1,0 +1,1 @@
+A "team randomizer" designed to automatically create balanced teams based on a curated point system.
